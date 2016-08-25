@@ -1,0 +1,19 @@
+{
+  "name": "functional-programming",
+  "version": "1.0.0",
+  "description": "functional programming examples",
+  "main": "lib/collection-utils.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Christopher Pryce <cpryce@digitalriver.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdoc": "^3.4.0",
+    "mocha": "^3.0.2"
+  }
+}
